@@ -1,0 +1,12 @@
+body{
+    /*background: url(https://terratra.com/wp-content/uploads/2019/10/travel_bg.jpg) right/cover no-repeat;*/
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: rgba(0,0,0,.5);*/
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

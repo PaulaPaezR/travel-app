@@ -1,0 +1,38 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    color: #3b3b3b;
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+}
+.greeting{
+    color: #151515;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.greeting__title{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.greeting__username{
+    color: #6a7fdb;
+}
+.text__main{
+    color: #6a7fdb;
+}
+@media screen and (min-width: 768px){
+    .main{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
